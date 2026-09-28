@@ -1,0 +1,12 @@
+name: viya_voice
+description: Viya Voice Only App
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  zego_uikit_prebuilt_call: ^4.10.0
+flutter:
+  uses-material-design: true
